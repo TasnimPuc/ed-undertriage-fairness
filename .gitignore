@@ -1,0 +1,26 @@
+# --- NEVER commit PhysioNet data or anything derived at patient level ---
+*.parquet
+*.csv
+*.feather
+*.pkl
+*.joblib
+*.pth
+*.pt
+*.ubj
+outputs/
+data/
+private/
+ed_undertriage/
+model/
+# trained model json lives in GCS, not git
+xgb_model.json
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+# notebooks downloaded from Kaggle contain run outputs -> only the clean template is tracked
+notebooks/*.ipynb
+!notebooks/kaggle_run.ipynb
+_kaggle_runs_private/
+results_for_github.zip
+!notebooks/kaggle_run_executed.ipynb
