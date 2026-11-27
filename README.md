@@ -1,5 +1,7 @@
 # ED Under-triage Detector + Fairness Audit (MIMIC-IV-ED)
 
+![repo health](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TasnimPuc/bd-rooftop-solar-calculator/main/.github/health/badge.json)
+
 Detects emergency-department patients who were triaged **non-urgent (ESI 3–5)** but went on to a
 **critical outcome** (ICU within 12 h of ED departure or in-hospital death), and audits whether
 under-triage differs by **age, sex, insurance and race**. A strict ESI 4–5 definition is reported as a
